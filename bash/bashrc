@@ -1,0 +1,8 @@
+export CLICOLOR=1
+export LSCOLORS=gxfxcxdxbxegedabagacad
+
+if [ -f $HOME/.bash_aliases ]; then
+    . $HOME/.bash_aliases
+fi
+
+export JAVA_HOME=$(/usr/libexec/java_home)
