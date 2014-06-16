@@ -2,7 +2,7 @@
 
 This is my dotfiles which was inspired by this [blog](http://mirnazim.org/writings/vim-plugins-i-use/) written by Mir Nazim.
 
-# What it looks like
+## What's in it ?
 
 ```
 +-- ~/dotfiles
@@ -13,15 +13,18 @@ This is my dotfiles which was inspired by this [blog](http://mirnazim.org/writin
 |	|	+-- autoload
 |	|	+-- bundle
 |	|	+--	vimrc
+|	+-- git
+|	|	+-- gitconfig
 ```
 For Vim plugin manager, I've been using [Pathogen.vim](https://github.com/tpope/vim-pathogen) written by  [Tim Pope](https://github.com/tpope). You can find all vim plugins installed in bundle directory.
 
-# Symbolic links
+## Symbolic links
 
 ```
 ln -s ~/dotfiles/vim ~/.vim
 ln -s ~/dotfiles/vim/vimrc ~/.vimrc
 ln -s ~/dotfiles/bash/bashrc ~/.bashrc
 ln -s ~/dotfiles/bash/aliases ~/.bash_aliases
+ln -s ~/dotfiles/git/gitconfig ~/.gitconfig
 ````
 
