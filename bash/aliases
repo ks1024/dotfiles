@@ -1,3 +1,4 @@
 alias ll='ls -l'
 alias c='clear'
 alias dev='cd $HOME/DevWorkspace'
+alias web='cd /Applications/MAMP/htdocs'
