@@ -15,6 +15,8 @@ This is my dotfiles which was inspired by this [blog](http://mirnazim.org/writin
 |	|	+--	vimrc
 |	+-- git
 |	|	+-- gitconfig
+|	+-- python
+|	|	+-- pythonrc
 ```
 For Vim plugin manager, I've been using [Pathogen.vim](https://github.com/tpope/vim-pathogen) written by  [Tim Pope](https://github.com/tpope). You can find all vim plugins installed in bundle directory.
 
@@ -26,5 +28,6 @@ ln -s ~/dotfiles/vim/vimrc ~/.vimrc
 ln -s ~/dotfiles/bash/bashrc ~/.bashrc
 ln -s ~/dotfiles/bash/aliases ~/.bash_aliases
 ln -s ~/dotfiles/git/gitconfig ~/.gitconfig
+ln -s ~/dotfiles/python/pythonrc ~/.pythonrc
 ````
 
